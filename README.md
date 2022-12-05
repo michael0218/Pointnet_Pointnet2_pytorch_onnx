@@ -181,3 +181,12 @@ If you find this repo useful in your research, please consider citing it and our
 * [PCT: Point Cloud Transformer](https://github.com/MenghaoGuo/PCT)
 * [PSNet: Fast Data Structuring for Hierarchical Deep Learning on Point Cloud](https://github.com/lly007/PointStructuringNet)
 * [Stratified Transformer for 3D Point Cloud Segmentation, CVPR'22](https://github.com/dvlab-research/stratified-transformer)
+
+
+
+
+## Model convert to ONNX
+#### Classification (ModelNet10)
+* python onnx_classification.py --log_dir pointnet2_cls_ssg --num_category 10 --use_cpu
+#### Part Segmentation (ShapeNet)
+* python onnx_partseg.py --normal --log_dir pointnet2_part_seg_msg
