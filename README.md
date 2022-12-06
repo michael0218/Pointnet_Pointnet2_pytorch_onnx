@@ -190,3 +190,6 @@ If you find this repo useful in your research, please consider citing it and our
 * python onnx_classification.py --log_dir pointnet2_cls_ssg --num_category 10 --use_cpu
 #### Part Segmentation (ShapeNet)
 * python onnx_partseg.py --normal --log_dir pointnet2_part_seg_msg
+
+#### Part Segmentation (ShapeNet)
+* python onnx_semseg.py --log_dir pointnet2_sem_seg --test_area 5 --visual
